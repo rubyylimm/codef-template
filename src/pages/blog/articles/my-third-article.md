@@ -51,8 +51,6 @@ starInputs.forEach((input) => {
 <p> How much do you like cheesecakes? (1 star-not so much, 5 star-I love it!) </p>
 
 
-
-![Icon](https://i.ytimg.com/vi/7Tt6Yv9czz8/maxresdefault.jpg)
 <span style="font-family: 'Times new roman', bold;"> 
 Indulge in the delightful flavors of a Burnt Cheesecake, a unique and delicious twist on the classic cheesecake. This unconventional dessert captures the essence of a perfectly caramelized exterior with a creamy and luscious interior.
 
@@ -61,11 +59,27 @@ Whether you're a cheesecake enthusiast or simply looking to explore new desserts
 
 Other desserts at Sarukado: 
 
-<img src=/images/my-third-article/crepe.webp
-alt="Sakurado's milicrepe slices">
 
-<img src=/images/my-third-article/download.jpg
-alt="Sakurado's fluffy japanese cheese cake">
+<img 
+height="1000"
+width="1000"
+src=/images/my-third-article/stensil.jpg
+alt="Sakurado's fluffy japanese cheese cake"
+class="rounded-md h-fit self-center justify-self-center"
+/>
 
+<img 
+height="1000"
+width="1000"
+src=/images/my-third-article/crepe.webp
+alt="Sakurado's milicrepe slices"
+class="rounded-md h-fit self-center justify-self-center"
+/>
 
-
+<img 
+height="1000"
+width="1000"
+src=/images/my-third-article/circlecake.webp
+alt="Sakurado's milicrepe slices"
+class="rounded-md h-fit self-center justify-self-center"
+/>

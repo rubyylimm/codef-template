@@ -55,11 +55,38 @@ starInputs.forEach((input) => {
 
 Le Choux, located at Lambroke Grove, is mostly known for their choux and puff pastries. However their lemon tart is very overrated and not many people know about it. 
 
-<img src=/images/my-first-article/lechoux.webp
-alt="lechoux">
+<img 
+height="1000"
+width="1000"
+src=/images/my-first-article/lechoux.webp
+alt="lechoux"
+class="rounded-md h-fit self-center justify-self-center"
+/>
 
 <img src=/images/my-first-article/meringue.webp
-alt="lemon meringue pie">
+alt="lemon meringue pie"
+class="rounded-md h-fit self-center justify-self-center"
+/>
 
+<img 
+height="1000"
+width="1000"
+src=/images/my-first-article/sixchoux.webp
+alt="lechoux"
+class="rounded-md h-fit self-center justify-self-center"
+/>
 
+<img 
+height="1000"
+width="1000"
+src=/images/my-first-article/longbox.webp
+alt="lechoux"
+class="rounded-md h-fit self-center justify-self-center"
+/>
+
+<span style="font-family: 'Times new roman', bold;">As for toppings, there are several options to enhance the presentation and flavor of a lemon tart. Some common choices include a dusting of powdered sugar, a dollop of whipped cream, a sprinkle of toasted meringue, or even a garnish of fresh berries or mint leaves. These additions add a touch of elegance and provide a contrasting texture or flavor to the tart.
+
+When you take a bite of a lemon tart, you'll experience a burst of citrusy tanginess from the lemon filling, complemented by the buttery and slightly sweet crust. The combination of flavors creates a harmonious balance that is both refreshing and indulgent.
+
+Lemon tarts are often served chilled, allowing the flavors to meld together and the filling to firm up. They are popular desserts in many cultures and are frequently enjoyed during spring and summer when lemons are in season. Whether you're a fan of citrus desserts or simply looking for a bright and flavorful treat, a lemon tart is sure to satisfy your taste buds. </span>
 
