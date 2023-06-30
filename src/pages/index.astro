@@ -24,11 +24,13 @@ const posts = sortDateDescending(
 			<h1
 				class="text-center bg-gradient-to-r from-sky-300 to-pink-600 bg-clip-text text-transparent text-5xl mb-[0.7em]"
 			>
-				Welcome to my <span class="font-bold"> Japanese Dessert blog</span>
+				Welcome to my <span class="font-bold">
+					Japanese Dessert blog</span
+				>
 			</h1>
 			<p class="text-center">
 				Heres where I share my favourite desserts and where you can find
-				them in London and tips on how to make them tasty. 
+				them in London and tips on how to make them tasty.
 
 				<div class="flex flex-wrap justify-center gap-5 mt-4">
 					<a
@@ -85,17 +87,18 @@ const posts = sortDateDescending(
 				</div>
 			</p>
 		</div>
+	</section>
+	<section>
+		<h2
+			class="mx-auto text-center mb-8 bg-gradient-orange text-transparent bg-clip-text text-4xl border-b-2 border-pink-400 font-semibold w-fit"
+		>
+			My favourites!
+		</h2>
 
-		<section>
-			<h2
-				class="mx-auto text-center mb-8 bg-gradient-orange text-transparent bg-clip-text text-4xl border-b-2 border-pink-400 font-semibold w-fit"
-			>
-				My favourites!
-			</h2>
-
-			<div class="flex flex first-line:flex-wrap flex-col justify-center gap-12">
-				{posts.map((post) => <ArticleCard content={post} />)}
-			</div>
-		</section>
+		<div
+			class="flex flex first-line:flex-wrap flex-col justify-center gap-12"
+		>
+			{posts.map((post) => <ArticleCard content={post} />)}
+		</div>
 	</section>
 </BaseLayout>

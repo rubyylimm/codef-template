@@ -22,7 +22,7 @@ const { navLinks } = pageSize;
     <BaseHead title={title} description={description} />
   </head>
 
-  <body>
+  <body class="bg-orange-100">
     <a
       href="#main"
       class="absolute bg-info text-info-content px-6 py-2 rounded-br-md translate-x-[-100%] focus-within:translate-x-0 transition-all"
@@ -126,7 +126,7 @@ const { navLinks } = pageSize;
       </nav>
     </header>
 
-    <main id="main" class="container mx-auto bg-orange-100">
+    <main id="main" class="container mx-auto">
       <slot />
     </main>
 
@@ -197,8 +197,8 @@ const { navLinks } = pageSize;
         fill: hsl(var(--er));
       }
       .csb-1l14o5i {
-  background-color: #473002;
-}
+        background-color: #473002;
+      }
     </style>
 
     <style is:global>
