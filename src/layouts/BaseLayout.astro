@@ -32,10 +32,10 @@ const { navLinks } = pageSize;
       <div class="p-4">
         <!-- Logo -->
         <img
-          height="50"
-          width="100"
-          src="/images/codef-logo.png"
-          alt="code f logo"
+          height="25"
+          width="50"
+          src="/images/cup.png"
+          alt="cupcake logo"
           class="rounded-md h-fit self-center justify-self-center"
         />
       </div>
@@ -100,7 +100,7 @@ const { navLinks } = pageSize;
               <svg
                 data-set-theme="light"
                 data-act-class="ACTIVECLASS"
-                class="swap-on fill-current w-6 h-6"
+                class="swap-on fill-current w-5 h-5"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
               >
@@ -126,7 +126,7 @@ const { navLinks } = pageSize;
       </nav>
     </header>
 
-    <main id="main" class="container mx-auto">
+    <main id="main" class="container mx-auto bg-orange-100">
       <slot />
     </main>
 
@@ -142,10 +142,10 @@ const { navLinks } = pageSize;
       ></path>
     </svg>
 
-    <footer class="border-t px-4 py-6 mt-6">
+    <footer class="border-t px-3 py-6 mt-6">
       <p class="text-center text-sm">
         &copy; {new Date().getFullYear()}
-        CodeF
+        Ruby
       </p>
     </footer>
     <style>
@@ -154,8 +154,8 @@ const { navLinks } = pageSize;
       }
 
       html[data-theme="night"] {
-        --fill-color: 142 72% 29%;
-        --stroke-color: 217 33% 17%;
+        --fill-color: 80 70% 29%;
+        --stroke-color: 10 33% 17%;
         --hamburger-bg: 0 0% 30%;
         color-scheme: dark;
       }
@@ -196,11 +196,14 @@ const { navLinks } = pageSize;
       header polygon {
         fill: hsl(var(--er));
       }
+      .csb-1l14o5i {
+  background-color: #473002;
+}
     </style>
 
     <style is:global>
       ::selection {
-        background-color: hsl(var(--a));
+        background-color: #473002;
         color: hsl(var(--ac));
       }
 
