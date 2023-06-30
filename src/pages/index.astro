@@ -14,14 +14,22 @@ const posts = sortDateDescending(
 		class="flex flex-col sm:flex-row justify-center max-w-[90%] w-[52rem] mx-auto gap-12 mb-48"
 	>
 		<img
-			width="200"
-			height="200"
+			width="400"
+			height="400"
 			src="/images/my-first-article/strawberrything.avif"
 			alt="avatar"
 			class="rounded-md h-fit self-center justify-self-center"
 		/>
+
+		<img
+			width="400"
+			height="400"
+			src="/images/my-first-article/cupcake.avif"
+			alt="avatar"
+			class="rounded-md h-fit self-center justify-self-center"
+		/>
 		<div class="flex flex-col flex-wrap flex-grow">
-			<h1
+		<h1
 				class="text-center bg-gradient-to-r from-sky-300 to-pink-600 bg-clip-text text-transparent text-5xl mb-[0.7em]"
 			>
 				Welcome to my <span class="font-bold">
@@ -29,8 +37,8 @@ const posts = sortDateDescending(
 				>
 			</h1>
 			<p class="text-center">
-				Heres where I share my favourite desserts and where you can find
-				them in London and tips on how to make them tasty.
+				<span style="font-family: 'Times new roman', bold;">Heres where I share my favourite desserts and where you can find
+				them in London and tips on how to make them tasty. </span> 
 
 				<div class="flex flex-wrap justify-center gap-5 mt-4">
 					<a
@@ -101,4 +109,57 @@ const posts = sortDateDescending(
 			{posts.map((post) => <ArticleCard content={post} />)}
 		</div>
 	</section>
+	
+	
+	
+	<section>
+
+		<h2
+			class="mx-auto text-center mb-8 bg-gradient-orange text-transparent bg-clip-text text-4xl border-b-2 border-pink-400 font-semibold w-fit"
+		>
+			About me!
+		</h2>
+	<section
+		class="flex flex-col sm:flex-row justify-center max-w-[90%] w-[52rem] mx-auto gap-12 mb-48"
+	>	
+		
+			<img
+			width="200"
+			height="200"
+			src="/images/my-first-article/KL.avif"
+			alt="avatar"
+			class="rounded-md h-fit self-center justify-self-center"
+		/>
+		
+		<img
+			width="200"
+			height="200"
+			src="/images/my-first-article/kuih.jpg"
+			alt="avatar"
+			class="rounded-md h-fit self-center justify-self-center"
+		/>
+		
+		<div class="flex flex-col flex-wrap flex-grow">
+		
+			<p class="text-center">
+				<span style="font-family: 'Times new roman', bold;">Hi everyone! my name is Ruby and I am originally from Malaysia, studying in London :) Being far away from home, I always crave my childhood desserts and try to recreate them in the kitchen. Staying here for a year now, I have cultivated 
+				a little blog of all my favourite dessert places in London that I would love to share. Eating kuih, a nyonya dessert with different colours and flavours has always been my childhood snack. 
+		in London and links. </span> 
+	</section> 
+	
+	<p class="italic"> We would love to hear from you! Tell us your favourite dessert. </p> 
+	
+	
+		<div id="comment-section">
+  <form id="comment-form">
+    <input type="text" id="name-input" placeholder="Your Name" required>
+    <textarea id="comment-input" placeholder="Your Comment" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+
+
+		
+	
 </BaseLayout>
