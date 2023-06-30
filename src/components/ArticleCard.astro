@@ -17,7 +17,7 @@ const description =
 ---
 
 <div
-  class="card sm:card-side bg-base-200 max-w-[90%] w-[52rem] mx-auto scale-1 hover:scale-105 transition-[scale_250ms] shadow-[0px_0px_20px_2px_rgb(0_0_0_/_50%)] dark:shadow-[0px_0px_20px_2px_rgb(255_255_255_/_50%)] focus-within:outline focus-within:outline-2 focus-within:outline-secondary"
+  class="card sm:card-side bg-pink-50 max-w-[90%] w-[52rem] mx-auto scale-1 hover:scale-105 transition-[scale_250ms] shadow-[0px_0px_20px_2px_rgb(0_0_0_/_50%)] dark:shadow-[0px_0px_20px_2px_rgb(255_255_255_/_50%)] focus-within:outline focus-within:outline-2 focus-within:outline-secondary"
 >
   {
     content.frontmatter.image ? (
@@ -25,9 +25,9 @@ const description =
         <figure class="pt-4 sm:pt-0 rounded">
           <img
             width="300"
-            height="200"
+            height="600"
             loading={lazyLoading ? "lazy" : "eager"}
-            class="m-2 max-w-[300px] max-h-[200px] aspect-video"
+            class="m-2 max-w-[300px] max-h-[600px] aspect-video"
             src={content.frontmatter.image}
             alt={
               content.frontmatter.imageDescription ?? content.frontmatter.title

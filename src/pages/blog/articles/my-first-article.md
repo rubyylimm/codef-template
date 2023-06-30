@@ -1,15 +1,65 @@
 ---
 layout: "@layouts/ArticleLayout.astro"
-title: My First Article
-date: 10 July 2022
-description: How a description would look like if added
-image: /images/my-third-article/cardimage.jpg
+title: Lemon tart
+date: 28 July 2023
+description: Thinking of trying one of these? Click read more to see where you can find them!
+image: /images/my-first-article/lemontart.avif
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque illo incidunt odit ex mollitia eligendi at eaque consequatur, sequi in repellat fuga qui itaque natus. Ducimus laboriosam, nihil nobis eum rerum facilis, quidem consequatur eligendi provident id in. Quae architecto rem repellendus nam, autem ullam facilis dolores veniam, impedit itaque similique deserunt dolorum eveniet nemo, dolore blanditiis assumenda laborum corporis ut! Fugiat earum molestias voluptatum! Quae recusandae qui inventore sapiente quod dolorum aspernatur ratione eveniet, similique modi dignissimos nihil ut.
 
-Aliquam, fugiat! Nisi saepe maiores neque minima, voluptatibus maxime, architecto debitis molestiae voluptatum eaque a tempore voluptates. Laboriosam, odit dolor. Explicabo facere exercitationem saepe nobis temporibus iure, repellendus atque rem quisquam hic reiciendis aliquid architecto, inventore repudiandae. Incidunt vero, rem obcaecati quam nesciunt distinctio minus voluptas perferendis alias error unde, repellat amet, pariatur nobis voluptatum iste quo. Debitis, ducimus! In nostrum, rerum quam explicabo quaerat cupiditate eos, distinctio officia tempora cumque, fuga consequuntur quas perferendis voluptates sit quos. Quod, tenetur.
+<div class="star-rating">
+  <input type="radio" id="star5" name="rating" value="5" />
+  <label for="star5">&#9733;</label>
+  <input type="radio" id="star4" name="rating" value="4" />
+  <label for="star4">&#9733;</label>
+  <input type="radio" id="star3" name="rating" value="3" />
+  <label for="star3">&#9733;</label>
+  <input type="radio" id="star2" name="rating" value="2" />
+  <label for="star2">&#9733;</label>
+  <input type="radio" id="star1" name="rating" value="1" />
+  <label for="star1">&#9733;</label>
+</div>
 
-Repellendus alias accusamus reprehenderit quam, qui, quae dolorem nihil, repellat necessitatibus fugit assumenda. Iste, repellendus obcaecati aliquam molestias perspiciatis eligendi unde nisi eius, reiciendis est assumenda cupiditate similique totam consequuntur excepturi! Optio iste obcaecati accusantium autem neque voluptatibus illo adipisci hic, blanditiis facere ipsum alias molestiae pariatur modi mollitia deserunt sunt. Officia natus corporis incidunt quasi odit, fugiat odio exercitationem explicabo, dicta excepturi earum vitae deserunt est obcaecati expedita libero esse mollitia ipsam nobis inventore quis quae. Rerum, non iusto.
+<style>
+.star-rating {
+  display: inline-block;
+  font-size: 25px;
+}
+.star-rating input[type="radio"] {
+  display: none;
+}
+.star-rating label {
+  color: #ddd;
+  float: right;
+  cursor: pointer;
+}
+.star-rating input[type="radio"]:checked ~ label {
+  color: #ffdd00;
+}
+</style>
 
-Sequi, sit. Aliquid, cumque adipisci? Provident nobis saepe quia voluptatibus consequuntur itaque deserunt fuga tempore expedita hic ipsum amet sequi, placeat soluta natus, pariatur explicabo, eligendi commodi? Recusandae reprehenderit quidem maiores explicabo exercitationem porro accusantium ipsum laudantium sapiente, repellendus omnis minima pariatur tempora iure non excepturi odit distinctio, totam eos, ut alias dolores hic esse nesciunt. Quia libero neque iure vel! Molestiae suscipit cupiditate illum a, sit labore corrupti non tenetur officiis voluptatum nulla, deleniti nam iure quo sed vel?
+<script>
+const starInputs = document.querySelectorAll('.star-rating input[type="radio"]');
+
+starInputs.forEach((input) => {
+  input.addEventListener('change', () => {
+    const rating = input.value;
+    // Perform any desired actions with the selected rating, such as sending it to a server or updating a display.
+    console.log('Selected rating:', rating);
+  });
+});
+</script>
+<p> How much do you like lemon tarts? (1 star-not so much, 5 star-I love it!) </p>
+
+<span style="font-family: 'Times new roman', bold;"> As a huge fan of lemon tarts, I have tried mastering the technique of replicating this Lemon Meringue Tart from <a href="https://lechouxlondon.com/products/copy-of-lemon-meringue-tart"> Le Croux in London. </a> This elegant dessert showcases the vibrant flavors of fresh lemons combined with a buttery, flaky crust, resulting in a delightful treat that will captivate your taste buds. </span> 
+
+Le Choux, located at Lambroke Grove, is mostly known for their choux and puff pastries. However their lemon tart is very overrated and not many people know about it. 
+
+<img src=/images/my-first-article/lechoux.webp
+alt="lechoux">
+
+<img src=/images/my-first-article/meringue.webp
+alt="lemon meringue pie">
+
+
+
